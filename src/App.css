@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.body {
+  background-color: #3140c4;
+  width: 100vw;
+  height: 100vh;
+}
+
+.container {
+  max-width: 75vw;
+  height: 90vh;
+  display: flex;
+  margin: auto;
+  padding: 10vh 0 0;
+}
+
+.form {
+  background-color: #ffffff;
+  border-radius: 0 15px 15px 0;
+  padding: 8vh 10vh;
+}
+
+h1 {
+  font-size: 2rem;
+  color: #272429;
+}
+
+p {
+  color: #a5a5a5;
+  font-size: 0.9rem;
+  margin-top: 1rem;
+}
+
+h2 {
+  margin: 5vh 0 2vh;
+  color: #272429;
+}
+
+label {
+  font-weight: bold;
+  font-size: 0.7rem;
+  color: #5b5b5b;
+}
+
+input {
+  height: 5vh;
+  border-radius: 5px;
+  background-color: #f4f6f8;
+  border: 1px solid #eeedf0;
+  margin: 1vh 1vh 2.5vh 0;
+}
+
+.search {
+  height: 5vh;
+  padding: 1vh 2vh;
+  background-color: #3140c4;
+  border-radius: 5px;
+  border: none;
+  color: #ffffff;
+}
+
+h5 {
+  color: #8f8f8f;
+  font-weight: normal;
+}
+
+.signUp,
+.login {
+  background: none;
+  border: none;
+  color: #4c5acc;
+  cursor: pointer;
+}
+
+.register {
+  margin: 0 0 1.5vh;
+}
+
+form {
+  max-width: 40vw;
+  display: flex;
+  flex-direction: column;
+}
+
+form input {
+  margin: 1vh 1vh 1.5vh 0;
+}
+
+.nameAndPhone,
+.cepAndAddress,
+.numberAndaddress_complementAndDistrict,
+.cityAndUfAndPlan {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#email {
+  width: 98%;
+}
+
+form input {
+  height: 4vh;
+}
+
+#city {
+  width: 15vw;
+}
+
+#number {
+  width: 5vw;
+}
+
+#address_complement,
+#district {
+  width: 10vw;
+}
+
+#uf {
+  width: 5vw;
+}
+
+.plan {
+  display: flex;
+  flex-direction: column;
+}
+
+select {
+  height: 4vh;
+  border-radius: 5px;
+  background-color: #f4f6f8;
+  border: 1px solid #eeedf0;
+  margin: 1vh 1vh 0 0;
+}
+
+.createAccount {
+  border: none;
+  background-color: #3040c4;
+  color: #ffffff;
+  padding: 2vh 5vh;
+  width: 50%;
+  font-size: 0.7rem;
+  border-radius: 2px;
+  margin: 1vh 0;
+}
